@@ -82,4 +82,38 @@ for inti the git in project use command.
                      use this command 
                             ---------------- {git branch -d f2}
                             this cmd is used for delete the brach f2 from the repo  
-                            
+
+
+    =======================================Merging cmd====================================
+    
+While working on a project there are many developer how work on othrs features and every one use different repo in there
+local machine.
+then user pull the repo code in there local machine and when upload the changes file into the repo then there many file 
+are uploaded by others developer of there changes. then need to merge the code at one place
+
+eg:       -------------------------------------------------------------------------------------------------------
+
+like project has one main repo with name {P1} and {d1} is clone the repo in machin and then {d2}, {d3} also clone the project
+and working on diff features
+
+branch name {P1}...{p2}...{p3}...{p4}      {p7}...{p8}
+                                  {p5}...{p6}
+
+                                  now from {p4} to{p7} are work by other developer and wants to merge the code
+
+
+                                  here hero comes to picture name with {MERGE} it merge the file in sequance 
+        ----------    {p1}...{p2}...{p3}...{p4}...{p5}...{p6}...{p7}...{p8}  -------------------
+
+        There are two way to merge the code
+
+        WAY 1
+
+        * git diff <-branch name ->
+                                   (to compare commits, branch, and files and more)
+        *git merge <branch name->  
+                                   (to merge 2 branch)
+
+    WAY 2
+    using PR from the github platform 
+    PR = Pull Request
