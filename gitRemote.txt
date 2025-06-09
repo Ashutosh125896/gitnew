@@ -55,3 +55,6 @@ for inti the git in project use command.
         it work like alias.....
         *** {git push origin main} ==is equal to===  {git push -u origin main} ==is equal to== {git push}***                     
                         
+                         git push --set-upstream origin main
+                         To have this happen automatically for branches without a tracking
+                         upstream, see 'push.autoSetupRemote' in 'git help config'.
