@@ -58,3 +58,28 @@ for inti the git in project use command.
                          git push --set-upstream origin main
                          To have this happen automatically for branches without a tracking
                          upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+    ------------------------------{branch command} -----------------------------------------
+
+    *git branch - to check which branch is currently user working
+    *git branch -M main  - to rename new branch
+
+      * for create a new branch 
+                    use the cmd 
+                     -----------  {git checkout -b <-new branch name->}
+                       eg: git checkout -b f3
+                       {it create new branch} in repo
+
+    *git checkout <-branch name->
+                     ----------{*git checkout <-branch name->}
+                      NOTE:- if i have 2 or more then 2 branch then we use the command to navigate on branch
+                      firat branch {f1} and second branch is {f2} then and user is working on {f1} and wnat to
+                      naviagte on {f2} the use the cmd
+                               from this--{f1} ---- to
+                             this  -----{git checkout f2}----
+
+* if user wnat to delete the branch 
+                     use this command 
+                            ---------------- {git branch -d f2}
+                            this cmd is used for delete the brach f2 from the repo  
+                            
