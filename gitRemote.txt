@@ -1,0 +1,57 @@
+Author - Ashutosh singh
+Subject - initialise repo by command 
+
+------------------------------------------{Init by Cmd using git cmd and vscode} -----------------------------------
+
+* first create a folder on desktop.
+* go to the github and create a new repo.
+* copy the SSH link.
+* open vscode create file 
+
+---------------------------------------------{for init the git in project} ----------------------------------------
+
+for inti the git in project use command.
+         open vscode terminal type command 
+                                     {git init} (------this cmd initialise the git in folder)
+
+* now you the SSH file from repo used sfter this
+        use cmd 
+              {git remote add origin <-SSH link->}
+
+* now check the remote version
+       use the cmd for check version of remote 
+                    {git remote -v}
+     it show somethings like this
+                 origin  https://github.com/Ashutosh125896/gitnew.git (fetch)
+                 origin  https://github.com/Ashutosh125896/gitnew.git (push)
+
+---------------------------------------------------------{Branch}--------------------------------------------------
+
+* what is branch?
+ branch is like tree, but in git hub Branch is a repo where developer commit there chnages code 
+ *master branch is a main branch where all developer can not push the code direct they first push the code in there 
+  brach like {main branch} 
+
+                              ......................command for branch...........................
+                        
+* check the branch of repo  {to check branch}
+                        use cmd 
+                         {git branch}
+
+                            .................{to set new branch}...............................
+
+* for set new brach in master branch
+                        use command 
+                             {git branch -M main}   .....(to rename brach).....
+
+* to push origin main
+                use cmd to push code in branch main
+                               {git push origin main}  
+
+
+        ---------------------------------------{NOTE}---------------------------------
+        IF YOU WORKIN IN A DIRECTORY FOR LONG TIME THEN DOES NOT USE THE COMMAND {git push origin main}
+        use the command {git push -u origin main}, after this you need to use only the coomand {git push}
+        it work like alias.....
+        *** {git push origin main} ==is equal to===  {git push -u origin main} ==is equal to== {git push}***                     
+                        
